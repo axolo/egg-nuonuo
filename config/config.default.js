@@ -20,6 +20,7 @@ exports.nuonuo = {
     apiUrl: 'https://sdk.nuonuo.com/open/v1/services', // v2
     // url: 'https://sdk.nuonuo.com/openPlatform/services', // v1
     // url: 'https://sandbox.nuonuocs.cn/open/v1/services', // sandbox
+    okCode: '0000',
     accessTokenCache: { // cache access token
       store: 'memory',
       prefix: 'nuonuo_',
