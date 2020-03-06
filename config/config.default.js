@@ -16,7 +16,8 @@
  */
 exports.nuonuo = {
   default: {
-    authUrl: 'https://open.nuonuo.com/accessToken',
+    authTokenUrl: 'https://open.nuonuo.com/accessToken', // get access token
+    authCodeUrl: 'https://open.nuonuo.com/authorize', // get auth code
     apiUrl: 'https://sdk.nuonuo.com/open/v1/services', // v2
     // url: 'https://sdk.nuonuo.com/openPlatform/services', // v1
     // url: 'https://sandbox.nuonuocs.cn/open/v1/services', // sandbox
@@ -28,10 +29,19 @@ exports.nuonuo = {
       quota: [ 50, 2592000 ], // 50 times / 30 days
     },
   },
+  // Merchant
+  // ===================================
   // client: {
-  //   isv: false,
   //   appKey: 'sandbox',
   //   appSecret: 'sandbox',
   //   userTax: 'taxcode',
+  // },
+  // ISV
+  // ===================================
+  // client: {
+  //   isv: true,
+  //   redirectUri: 'http://url-to-oauth-redirect', // add route to app.nuonuo.isvAuthRedirect
+  //   appKey: 'sandbox',
+  //   appSecret: 'sandbox',
   // },
 };
