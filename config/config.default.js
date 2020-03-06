@@ -7,24 +7,27 @@
  * @see https://open.nuonuo.com/#/dev-doc/sandbox-usage
  *
  * @member Config#nuonuo
- * @property {String}   authUrl   auth url (access token)
- * @property {String}   apiUrl    open api url
- * @property {Boolean}  isv       ISV? (default to undefined)
- * @property {String}   appKey    appKey
- * @property {String}   appSecret appSecret
- * @property {String}   userTax   user tax number (ISV required)
+ * @property {string}   authTokenUrl      url to get access token
+ * @property {string}   authCodeUrl       open api url
+ * @property {string}   appKey            appKey
+ * @property {string}   appSecret         appSecret
+ * @property {string}   userTax           user tax number
+ * @property {string}   okCode            user tax number
+ * @property {string}   accessTokenCache  user tax number
+ * @property {boolean}  isv               ISV? (default to undefined)
+ * @property {string}   redirectUri       url to isv auth code redirect
  */
 exports.nuonuo = {
   default: {
     authTokenUrl: 'https://open.nuonuo.com/accessToken', // get access token
     authCodeUrl: 'https://open.nuonuo.com/authorize', // get auth code
     apiUrl: 'https://sdk.nuonuo.com/open/v1/services', // v2
-    // url: 'https://sdk.nuonuo.com/openPlatform/services', // v1
-    // url: 'https://sandbox.nuonuocs.cn/open/v1/services', // sandbox
+    // apiUrl: 'https://sdk.nuonuo.com/openPlatform/services', // v1
+    // apiUrl: 'https://sandbox.nuonuocs.cn/open/v1/services', // sandbox
     okCode: '0000',
     accessTokenCache: { // cache access token
       store: 'memory',
-      prefix: 'nuonuo_',
+      prefix: 'nuonuo',
       ttl: 86400, // 24 hours
       quota: [ 50, 2592000 ], // 50 times / 30 days
     },
