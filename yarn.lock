@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@axolo/node-nuonuo@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@axolo/node-nuonuo/-/node-nuonuo-0.0.1.tgz#72d4ebff096f5b1f5a368bedc31368c1734df937"
-  integrity sha512-mlVpzaBMzLpBw2rf3De0UZArkw8hJq8G2jdTMXxWDZ+kvxns2P+g+24aq1x0SXZZ23BLqt7b/S+sKj8q0VGxbg==
+"@axolo/node-nuonuo@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.npm.taobao.org/@axolo/node-nuonuo/download/@axolo/node-nuonuo-0.0.2.tgz#a99c7abe771ca327ba509e2b41c70195ff433765"
+  integrity sha1-qZx6vnccoye6UJ4rQccBlf9DN2U=
   dependencies:
     cache-manager "^3.1.0"
     urllib "^2.34.2"
@@ -780,7 +780,7 @@ async-each@^1.0.1:
 
 async@1.5.2:
   version "1.5.2"
-  resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
+  resolved "https://registry.npm.taobao.org/async/download/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
   integrity sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
 
 asynckit@^0.4.0:
@@ -1758,8 +1758,8 @@ cache-content-type@^1.0.0, cache-content-type@^1.0.1:
 
 cache-manager@^3.1.0:
   version "3.1.0"
-  resolved "https://registry.yarnpkg.com/cache-manager/-/cache-manager-3.1.0.tgz#a39851e54d0d2e51622bd687d95b4b8def9d7920"
-  integrity sha512-ptrCPy+O0DhCDeN/YGHCJsOabcKtbL5RoMU8INsMhTvZbuzU9uWoWJvO3rt0GFN59lbKdpwW45Eg6Bmz9Vizrw==
+  resolved "https://registry.npm.taobao.org/cache-manager/download/cache-manager-3.1.0.tgz#a39851e54d0d2e51622bd687d95b4b8def9d7920"
+  integrity sha1-o5hR5U0NLlFiK9aH2VtLje+deSA=
   dependencies:
     async "1.5.2"
     lodash.clonedeep "4.5.0"
@@ -4749,7 +4749,7 @@ locate-path@^3.0.0:
 
 lodash.clonedeep@4.5.0:
   version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  resolved "https://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
   integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
 lodash.flattendeep@^4.4.0:
@@ -4795,7 +4795,7 @@ lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
 
 lru-cache@4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.0.0.tgz#b5cbf01556c16966febe54ceec0fb4dc90df6c28"
+  resolved "https://registry.npm.taobao.org/lru-cache/download/lru-cache-4.0.0.tgz#b5cbf01556c16966febe54ceec0fb4dc90df6c28"
   integrity sha1-tcvwFVbBaWb+vlTO7A+03JDfbCg=
   dependencies:
     pseudomap "^1.0.1"
@@ -7073,8 +7073,8 @@ uuid@^3.0.1, uuid@^3.3.2:
 
 uuid@^7.0.2:
   version "7.0.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.2.tgz#7ff5c203467e91f5e0d85cfcbaaf7d2ebbca9be6"
-  integrity sha512-vy9V/+pKG+5ZTYKf+VcphF5Oc6EFiu3W8Nv3P3zIh0EqVI80ZxOzuPfe9EHjkFNvf8+xuTHVeei4Drydlx4zjw==
+  resolved "https://registry.npm.taobao.org/uuid/download/uuid-7.0.2.tgz#7ff5c203467e91f5e0d85cfcbaaf7d2ebbca9be6"
+  integrity sha1-f/XCA0Z+kfXg2Fz8uq99LrvKm+Y=
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"

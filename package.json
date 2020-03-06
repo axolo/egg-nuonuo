@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-nuonuo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Nuonuo open api plugin for Egg.js by node-nuonuo.",
   "eggPlugin": {
     "name": "nuonuo"
@@ -17,7 +17,7 @@
     "诺诺网"
   ],
   "dependencies": {
-    "@axolo/node-nuonuo": "^0.0.1"
+    "@axolo/node-nuonuo": "^0.0.2"
   },
   "devDependencies": {
     "autod": "^3.1.0",
