@@ -1,5 +1,7 @@
 # egg-nuonuo
 
+诺诺发票SDK [node-nuonuo] Egg.js插件。
+
 ## 安装插件
 
 ```bash
@@ -33,3 +35,5 @@ exports.nuonuo = {
 ## License
 
 [MIT](LICENSE)
+
+[node-nuonuo]: https://github.com/axolo/node-nuonuo

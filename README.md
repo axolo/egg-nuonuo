@@ -37,3 +37,4 @@ Please open an issue [here](https://github.com/axolo/egg-nuonuo/issues).
 [MIT](LICENSE)
 
 [Nuonuo]: https://open.nuonuo.com/
+[node-nuonuo]: https://github.com/axolo/node-nuonuo
