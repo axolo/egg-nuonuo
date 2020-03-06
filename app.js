@@ -1,6 +1,6 @@
 'use strict';
 
-const Nuonuo = require('../node-nuonuo');
+const Nuonuo = require('@axolo/node-nuonuo');
 
 const createNuonuo = config => {
   const nuonuo = new Nuonuo(config);

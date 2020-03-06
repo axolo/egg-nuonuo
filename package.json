@@ -16,7 +16,9 @@
     "电子发票",
     "诺诺网"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@axolo/node-nuonuo": "^0.0.1"
+  },
   "devDependencies": {
     "autod": "^3.1.0",
     "autod-egg": "^1.1.0",

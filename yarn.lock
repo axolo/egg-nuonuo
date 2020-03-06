@@ -2,6 +2,15 @@
 # yarn lockfile v1
 
 
+"@axolo/node-nuonuo@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@axolo/node-nuonuo/-/node-nuonuo-0.0.1.tgz#72d4ebff096f5b1f5a368bedc31368c1734df937"
+  integrity sha512-mlVpzaBMzLpBw2rf3De0UZArkw8hJq8G2jdTMXxWDZ+kvxns2P+g+24aq1x0SXZZ23BLqt7b/S+sKj8q0VGxbg==
+  dependencies:
+    cache-manager "^3.1.0"
+    urllib "^2.34.2"
+    uuid "^7.0.2"
+
 "@babel/code-frame@7.0.0-beta.44":
   version "7.0.0-beta.44"
   resolved "https://registry.npm.taobao.org/@babel/code-frame/download/@babel/code-frame-7.0.0-beta.44.tgz#2a02643368de80916162be70865c97774f3adbd9"
@@ -768,6 +777,11 @@ async-each@^1.0.1:
   version "1.0.3"
   resolved "https://registry.npm.taobao.org/async-each/download/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
   integrity sha1-tyfb+H12UWAvBvTUrDh/R9kbDL8=
+
+async@1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
+  integrity sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -1741,6 +1755,15 @@ cache-content-type@^1.0.0, cache-content-type@^1.0.1:
   dependencies:
     mime-types "^2.1.18"
     ylru "^1.2.0"
+
+cache-manager@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/cache-manager/-/cache-manager-3.1.0.tgz#a39851e54d0d2e51622bd687d95b4b8def9d7920"
+  integrity sha512-ptrCPy+O0DhCDeN/YGHCJsOabcKtbL5RoMU8INsMhTvZbuzU9uWoWJvO3rt0GFN59lbKdpwW45Eg6Bmz9Vizrw==
+  dependencies:
+    async "1.5.2"
+    lodash.clonedeep "4.5.0"
+    lru-cache "4.0.0"
 
 cache-require-paths@^0.3.0:
   version "0.3.0"
@@ -4724,6 +4747,11 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+lodash.clonedeep@4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
+
 lodash.flattendeep@^4.4.0:
   version "4.4.0"
   resolved "https://registry.npm.taobao.org/lodash.flattendeep/download/lodash.flattendeep-4.4.0.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
@@ -4764,6 +4792,14 @@ lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
   version "1.1.4"
   resolved "https://registry.npm.taobao.org/lower-case/download/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
+
+lru-cache@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.0.0.tgz#b5cbf01556c16966febe54ceec0fb4dc90df6c28"
+  integrity sha1-tcvwFVbBaWb+vlTO7A+03JDfbCg=
+  dependencies:
+    pseudomap "^1.0.1"
+    yallist "^2.0.0"
 
 lru-cache@^4.0.1:
   version "4.1.5"
@@ -5808,7 +5844,7 @@ ps-tree@^1.1.0, ps-tree@^1.2.0:
   dependencies:
     event-stream "=3.3.4"
 
-pseudomap@^1.0.2:
+pseudomap@^1.0.1, pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/pseudomap/download/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
@@ -6981,7 +7017,7 @@ urix@^0.1.0:
   resolved "https://registry.npm.taobao.org/urix/download/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-urllib@^2.24.0, urllib@^2.25.1, urllib@^2.33.0, urllib@^2.33.3:
+urllib@^2.24.0, urllib@^2.25.1, urllib@^2.33.0, urllib@^2.33.3, urllib@^2.34.2:
   version "2.34.2"
   resolved "https://registry.npm.taobao.org/urllib/download/urllib-2.34.2.tgz#ce8ddafdeb22a40265094c1aa961bcbe7c8662b8"
   integrity sha1-zo3a/esipAJlCUwaqWG8vnyGYrg=
@@ -7034,6 +7070,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.4.0.tgz?cache=0&sync_timestamp=1583326308251&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fuuid%2Fdownload%2Fuuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha1-sj5DWK+oogL+ehAK8fX4g/AgB+4=
+
+uuid@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.2.tgz#7ff5c203467e91f5e0d85cfcbaaf7d2ebbca9be6"
+  integrity sha512-vy9V/+pKG+5ZTYKf+VcphF5Oc6EFiu3W8Nv3P3zIh0EqVI80ZxOzuPfe9EHjkFNvf8+xuTHVeei4Drydlx4zjw==
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
@@ -7169,7 +7210,7 @@ y18n@^3.2.0, y18n@^3.2.1:
   resolved "https://registry.npm.taobao.org/y18n/download/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
   integrity sha1-le+U+F7MgdAHwmThkKEg8KPIVms=
 
-yallist@^2.1.2:
+yallist@^2.0.0, yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npm.taobao.org/yallist/download/yallist-2.1.2.tgz?cache=0&sync_timestamp=1569874223546&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyallist%2Fdownload%2Fyallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
   integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
