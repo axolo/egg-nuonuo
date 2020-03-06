@@ -3,6 +3,17 @@
 /**
  * **egg-nuonuo default config**
  *
+ * **TIP**
+ *
+ * If isv is true,
+ * PLEASE config `redirectUri`,
+ * and add route to `app.nuonuo.isvAuthRedirect`,
+ * like:
+ *
+ * ```js
+ * router.get('/nuonuo/redirect', ctx => app.nuonuo.isvAuthRedirect(ctx));
+ * ```
+ *
  * @see https://open.nuonuo.com/#/api-doc/common-api?id=100007
  * @see https://open.nuonuo.com/#/dev-doc/sandbox-usage
  *
@@ -15,7 +26,7 @@
  * @property {string}   okCode            user tax number
  * @property {string}   accessTokenCache  user tax number
  * @property {boolean}  isv               ISV? (default to undefined)
- * @property {string}   redirectUri       url to isv auth code redirect
+ * @property {string}   redirectUri       url to isv auth code redirect (required if isv is true)
  */
 exports.nuonuo = {
   default: {
@@ -43,7 +54,7 @@ exports.nuonuo = {
   // ===================================
   // client: {
   //   isv: true,
-  //   redirectUri: 'http://url-to-oauth-redirect', // add route to app.nuonuo.isvAuthRedirect
+  //   redirectUri: 'http://url-to-oauth-redirect',
   //   appKey: 'sandbox',
   //   appSecret: 'sandbox',
   // },
