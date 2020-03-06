@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-nuonuo",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Nuonuo open api plugin for Egg.js by node-nuonuo.",
   "eggPlugin": {
     "name": "nuonuo"
@@ -42,7 +42,9 @@
     "autod": "autod"
   },
   "files": [
-    "config"
+    "app.js",
+    "config",
+    "lib"
   ],
   "ci": {
     "version": "8, 10"
